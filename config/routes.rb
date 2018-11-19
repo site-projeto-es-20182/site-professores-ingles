@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  resources :texts
   get 'initial_page/index'
+
+  resources :texts
 
   root 'initial_page#index'
 
