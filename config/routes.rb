@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :poems
   resources :texts
   get 'initial_page/index'
 
