@@ -1,10 +1,15 @@
 Rails.application.routes.draw do
+
   resources :texts do
     resources :comments, module: :texts
   end
 
   resources :poems do
     resources :comments, module: :poems
+  end
+
+  resources :forums do
+    resources :comments, module: :forums
   end
 
   root 'initial_page#index'

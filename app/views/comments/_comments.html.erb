@@ -1,8 +1,8 @@
 <% commentable.comments.each do |comment| %>
   <p>
   <hr>
-  <%= comment.author %><br>
-  <%= comment.content %><br>
+  <strong><%= comment.author %></strong><br>
+  <br><%= comment.content %><br>
   <%= link_to 'Delete', [comment.commentable, comment], method: :delete, data: {confirm: 'Are you sure?'} %>
   </p>
 <% end %>
