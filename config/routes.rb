@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  resources :poems
-  resources :texts
-  get 'initial_page/index'
+  resources :texts do
+    resources :comments, module: :texts
+  end
 
-  resources :texts
+  resources :poems do
+    resources :comments, module: :poems
+  end
 
   root 'initial_page#index'
 

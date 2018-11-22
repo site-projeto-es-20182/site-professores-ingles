@@ -15,5 +15,11 @@
   <%= @text.content %>
 </p>
 
+<h2>Comments</h2>
+<%= render partial: "comments/comments", locals: {commentable: @text} %>
+
+<h2>Add a comment</h2>
+<%= render partial: "comments/form", locals: {commentable: @text} %>
+
 <%= link_to 'Edit', edit_text_path(@text) %> |
 <%= link_to 'Back', texts_path %>

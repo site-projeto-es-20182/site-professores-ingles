@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="" />
+    <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/poem.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/poem.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/text.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/text.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/poems/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/poems/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/texts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/texts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_commentable_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878530551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
     <SUITE FILE_PATH="coverage/site_professores_ingles_master@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1542673227957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1542593181248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_c_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment c…{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878668581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_notable_references_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878397976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1542878872143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_g_model_comment_commentable_references_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878800265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1104115816">
@@ -98,23 +111,72 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1115128403">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.actions.runAnything">
+        <counts>
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="erb" value="5" />
+          <entry key="jbuilder" value="2" />
+          <entry key="rb" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="RHTML" value="5" />
+          <entry key="Ruby" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="erb" value="902" />
+          <entry key="rb" value="878" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="RHTML" value="902" />
+          <entry key="Ruby" value="878" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/text.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="59" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/initial_page/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/poems/comments_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/texts/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -122,17 +184,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/poem.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            <state relative-caret-position="17">
+              <caret line="1" column="34" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/texts/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/poems/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -140,31 +211,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/poems/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="374">
+              <caret line="22" column="95" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/poems/show.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/poems/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_comments.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/texts/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/text.rb" />
-        <option value="$PROJECT_DIR$/app/models/poem.rb" />
         <option value="$PROJECT_DIR$/app/views/initial_page/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/poems/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/poem.rb" />
+        <option value="$PROJECT_DIR$/app/models/text.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/texts/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/poems/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/texts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/poems/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_comments.html.erb" />
       </list>
     </option>
   </component>
@@ -180,8 +284,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="4" />
+    <option name="x" value="619" />
+    <option name="y" value="349" />
     <option name="width" value="975" />
     <option name="height" value="1000" />
   </component>
@@ -191,75 +295,93 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="poems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="texts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="initial_page" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="poems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="site-professores-ingles-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="texts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,8 +393,14 @@
   <component name="RunAnythingCache">
     <option name="b">
       <command value="rails generate scaffold text title:string author:string content:text" />
-      <command value="rake db:migrate" />
       <command value="rails generate scaffold Poem title:string author:string content:text" />
+      <command value="ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text" />
+      <command value="rails rake db:migrate" />
+      <command value="ruby rake db:migrate" />
+      <command value="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" />
+      <command value="ruby bin/rails generate model Comment c…{polymorphic} author:string content:text" />
+      <command value="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" />
+      <command value="rake db:migrate" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -388,16 +516,80 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="g model comment commentable:references{polymorphic} author:string content:text" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ruby bin/rails generate model Comment c…{polymorphic} author:string content:text" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="generate model Comment c…{polymorphic} author:string content:text" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="generate model Comment commentable{polymorphic} author:string content:text" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="generate model Comment notable:references{polymorphic} author:string content:text" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Rake.test: site-professores" />
       <item itemvalue="Rake.spec: site-professores" />
       <item itemvalue="Rails.Production: site-professores" />
       <item itemvalue="Rails.Development: site-professores" />
       <item itemvalue="Rake.db:migrate: site-professores" />
+      <item itemvalue="Ruby.ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text" />
+      <item itemvalue="Ruby.ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" />
+      <item itemvalue="Ruby.ruby bin/rails generate model Comment c…{polymorphic} author:string content:text" />
+      <item itemvalue="Ruby.ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Rake.db:migrate: site-professores" />
+        <item itemvalue="Ruby.ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" />
+        <item itemvalue="Ruby.ruby bin/rails generate model Comment c…{polymorphic} author:string content:text" />
+        <item itemvalue="Ruby.ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" />
+        <item itemvalue="Ruby.ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text" />
       </list>
     </recent_temporary>
   </component>
@@ -415,22 +607,24 @@
       <workItem from="1542585425574" duration="526000" />
       <workItem from="1542588934926" duration="1764000" />
       <workItem from="1542673023932" duration="186000" />
+      <workItem from="1542878233600" duration="1689000" />
+      <workItem from="1542909241738" duration="4325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2476000" />
+    <option name="totallyTimeSpent" value="8490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="4" width="975" height="1000" extended-state="0" />
+    <frame x="619" y="349" width="975" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27103826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49726775" weight="0.32947975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +633,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50163937" side_tool="true" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,36 +659,8 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/initial_page_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/texts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/texts_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/text.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/poem.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/initial_page/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -505,20 +671,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/texts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181122092434_create_comments.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/text.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181122092645_create_comments.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/texts/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/poems/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/poem.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/poems/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/poems/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/poems/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/poems/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_comments.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
