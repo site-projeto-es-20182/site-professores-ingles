@@ -1,6 +1,6 @@
 class TextsController < ApplicationController
   before_action :set_text, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!, except: [:index, :show]
   # GET /texts
   # GET /texts.json
   def index
@@ -25,7 +25,7 @@ class TextsController < ApplicationController
   # POST /texts.json
   def create
     @text = Text.new(text_params)
-
+    @text.user = current_user
     respond_to do |format|
       if @text.save
         format.html { redirect_to @text, notice: 'Text was successfully created.' }

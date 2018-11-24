@@ -1,5 +1,6 @@
 class PoemsController < ApplicationController
   before_action :set_poem, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /poems
   # GET /poems.json
@@ -25,7 +26,7 @@ class PoemsController < ApplicationController
   # POST /poems.json
   def create
     @poem = Poem.new(poem_params)
-
+    @poem.user = current_user
     respond_to do |format|
       if @poem.save
         format.html { redirect_to @poem, notice: 'Poem was successfully created.' }

@@ -1,9 +1,5 @@
 <%= form_with(model: [commentable, Comment.new], local: true) do |form| %>
-  <div class="field">
-    <%= form.label :author %><br/>
-    <%= form.text_field :author %>
-  </div>
-  <div class="field">
+   <div class="field">
     <%= form.label :content %><br/>
     <%= form.text_area :content %>
   </div>

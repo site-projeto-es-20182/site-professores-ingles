@@ -1,4 +1,5 @@
 class CommentsController <ApplicationController
+  before_action :authenticate_user!
 
   def new
     @comment = @commentable.comments.new
@@ -6,6 +7,7 @@ class CommentsController <ApplicationController
 
   def create
     @comment = @commentable.comments.new comment_params
+    @comment.user = current_user
     if @commentable.save
       @commentable.save
       redirect_to @commentable, notice: "Comment succesfully created."

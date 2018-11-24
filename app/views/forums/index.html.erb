@@ -18,7 +18,7 @@
       <tr>
         <td><%= "["+forum.tag+"]" %></td>
         <td><%= forum.title %></td>
-        <td><%= forum.author %></td>
+        <td><%= forum.user.username %></td>
         <td><%= forum.content %></td>
         <td><%= link_to 'Show', forum %></td>
         <td><%= link_to 'Edit', edit_forum_path(forum) %></td>
