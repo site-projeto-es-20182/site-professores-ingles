@@ -39,9 +39,9 @@ ActiveRecord::Schema.define(version: 20181124022409) do
     t.string "title"
     t.string "author"
     t.text "content"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
     t.index ["user_id"], name: "index_poems_on_user_id"
   end
 
@@ -49,9 +49,9 @@ ActiveRecord::Schema.define(version: 20181124022409) do
     t.string "title"
     t.string "author"
     t.text "content"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
     t.index ["user_id"], name: "index_texts_on_user_id"
   end
 
