@@ -15,6 +15,7 @@
     <% @texts.each do |text| %>
       <tr>
         <td><%= text.title %></td>
+        <td><%= text.user.username %></td>
         <td><%= text.content %></td>
         <td><%= link_to 'Show', text %></td>
         <td><%= link_to 'Edit', edit_text_path(text) %></td>

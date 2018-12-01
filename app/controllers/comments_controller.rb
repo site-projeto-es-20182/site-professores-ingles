@@ -18,8 +18,13 @@ class CommentsController <ApplicationController
 
   def destroy
     @comment = @commentable.comments.find(params[:id])
-    @comment.destroy
-    redirect_to @commentable, notice: "Comment succesfully deleted"
+    if @comment.user == current_user
+      @comment.destroy
+      redirect_to @commentable, notice: "Comment succesfully deleted"
+    else
+      redirect_to @commentable, notice: "Comment not deleted."
+    end
+
   end
 
   private

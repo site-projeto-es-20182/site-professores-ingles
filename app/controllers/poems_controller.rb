@@ -42,12 +42,17 @@ class PoemsController < ApplicationController
   # PATCH/PUT /poems/1.json
   def update
     respond_to do |format|
-      if @poem.update(poem_params)
-        format.html { redirect_to @poem, notice: 'Poem was successfully updated.' }
-        format.json { render :show, status: :ok, location: @poem }
+      if @poem.user == current_user || current_user.admin?
+        if @poem.update(poem_params)
+          format.html { redirect_to @poem, notice: 'Poem was successfully updated.' }
+          format.json { render :show, status: :ok, location: @poem }
+        else
+          format.html { render :edit }
+          format.json { render json: @poem.errors, status: :unprocessable_entity }
+        end
       else
-        format.html { render :edit }
-        format.json { render json: @poem.errors, status: :unprocessable_entity }
+        format.html { redirect_to @poem, notice: 'You do not have permission to do this.'}
+        format.json { render :show, status: :ok, location: @poem }
       end
     end
   end
@@ -55,10 +60,17 @@ class PoemsController < ApplicationController
   # DELETE /poems/1
   # DELETE /poems/1.json
   def destroy
-    @poem.destroy
-    respond_to do |format|
-      format.html { redirect_to poems_url, notice: 'Poem was successfully destroyed.' }
-      format.json { head :no_content }
+    if @poem.user == current_user || current_user.admin?
+      @poem.destroy
+      respond_to do |format|
+        format.html { redirect_to poems_url, notice: 'Poem was successfully destroyed.' }
+        format.json { head :no_content }
+      end
+    else
+      respond_to do |format|
+        format.html { redirect_to poems_url, notice: 'You do not have permission to do that.' }
+        format.json {head :no_content}
+      end
     end
   end
 

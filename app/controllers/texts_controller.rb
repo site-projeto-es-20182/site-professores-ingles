@@ -41,12 +41,17 @@ class TextsController < ApplicationController
   # PATCH/PUT /texts/1.json
   def update
     respond_to do |format|
-      if @text.update(text_params)
-        format.html { redirect_to @text, notice: 'Text was successfully updated.' }
-        format.json { render :show, status: :ok, location: @text }
+      if @text.user == current_user || current_user.admin?
+        if @text.update(text_params)
+          format.html { redirect_to @text, notice: 'Text was successfully updated.' }
+          format.json { render :show, status: :ok, location: @text }
+        else
+          format.html { render :edit }
+          format.json { render json: @text.errors, status: :unprocessable_entity }
+        end
       else
-        format.html { render :edit }
-        format.json { render json: @text.errors, status: :unprocessable_entity }
+        format.html { redirect_to @text, notice: 'You do not have permission to do this'}
+        format.json { render :show, status: :ok, location: @text }
       end
     end
   end
@@ -54,10 +59,17 @@ class TextsController < ApplicationController
   # DELETE /texts/1
   # DELETE /texts/1.json
   def destroy
-    @text.destroy
-    respond_to do |format|
-      format.html { redirect_to texts_url, notice: 'Text was successfully destroyed.' }
-      format.json { head :no_content }
+    if @text.user == current_user || current_user.admin?
+      @text.destroy
+      respond_to do |format|
+        format.html { redirect_to texts_url, notice: 'Text was successfully destroyed.' }
+        format.json { head :no_content }
+      end
+    else
+      respond_to do |format|
+        format.html { redirect_to texts_url, notice: 'You do not have permission to do this.' }
+        format.json { head :no_content }
+      end
     end
   end
 
