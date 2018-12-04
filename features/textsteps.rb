@@ -79,7 +79,6 @@ end
 
 When("I click Delete on the text titled {string}") do |string|
   expect(page).to have_content(string)
-  click_link 'Destroy'
   #if 'text[title]' == string
    # click_link 'text[Destroy]'
   #end

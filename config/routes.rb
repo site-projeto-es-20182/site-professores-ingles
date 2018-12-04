@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :doubts
   devise_for :users
   resources :texts do
     resources :comments, module: :texts
