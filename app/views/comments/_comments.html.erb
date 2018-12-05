@@ -1,0 +1,8 @@
+<% commentable.comments.each do |comment| %>
+  <p>
+  <hr>
+  <strong><%= comment.user.username %></strong><br>
+  <br><%= comment.content %><br>
+  <%= link_to 'Delete', [comment.commentable, comment], method: :delete, data: {confirm: 'Are you sure?'} %>
+  </p>
+<% end %>

@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= "["+@forum.tag+"]" %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @forum.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @forum.user.username %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @forum.content %>
+</p>
+
+<h2>Comments</h2>
+<%= render partial: "comments/comments", locals: {commentable: @forum} %>
+
+<h2>Add a comment</h2>
+<%= render partial: "comments/form", locals: {commentable: @forum} %>
+
+<%= link_to 'Edit', edit_forum_path(@forum) %> |
+<%= link_to 'Back', forums_path %>
+
+
