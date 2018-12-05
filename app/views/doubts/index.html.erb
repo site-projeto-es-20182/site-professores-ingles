@@ -19,8 +19,8 @@
         <td><%= doubt.user.username %></td>
         <td><%= doubt.content %></td>
         <td><%= link_to 'Show', doubt %></td>
-        <td><%= link_to 'Edit', edit_doubt_path(doubt) %></td>
-        <td><%= link_to 'Destroy', doubt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Edit', edit_doubt_path(doubt), id:"e-#{doubt.title}" %></td>
+        <td><%= link_to 'Destroy', doubt_path(doubt), id:"d-#{doubt.title}", method: :delete %></td>
       </tr>
     <% end %>
   </tbody>

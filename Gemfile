@@ -5,13 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-group :test do
-  gem 'cucumber', '~> 3.1.0'
-  gem 'rspec', '~> 3.7.0'
-  gem 'capybara', '~> 3.12.0'
-  gem 'selenium-webdriver'
-end
-
 gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -40,13 +33,21 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rspec'
+gem 'cucumber'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
+  #gem 'rspec', '~> 3.7.0'
+  gem 'capybara', '~> 3.12.0'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+end
 
-
+group :test do
+  gem 'cucumber-rails', require: false
 end
 
 group :development do

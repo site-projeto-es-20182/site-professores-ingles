@@ -3,11 +3,11 @@ Given("I am in the texts page") do
 end
 
 Given("I am logged on as student {string} with password {string}") do |string, string2|
-  #visit 'http://localhost:3000/users/sign_up'
-  #fill_in 'user[email]', :with => string
-  #fill_in 'user[password]', :with => string2
-  #fill_in 'user[password_confirmation]', :with => string2
-  #click_button 'Sign up'
+  visit 'http://localhost:3000/users/sign_up'
+  fill_in 'user[email]', :with => string
+  fill_in 'user[password]', :with => string2
+  fill_in 'user[password_confirmation]', :with => string2
+  click_button 'Sign up'
   visit 'http://localhost:3000/users/sign_in'
   fill_in 'user[email]', :with => string
   fill_in 'user[password]', :with => string2
@@ -49,12 +49,7 @@ When("I fill Title with {string}") do |string|
 end
 
 When("I click Edit on the text titled {string}") do |string|
-  expect(page).to have_content(string)
-  click_link 'Edit'
-  #if 'text[title]' == string
-  # click_link 'text[Destroy]'
-  #end
-  #first(:link, 'Edit').click
+  click_link "e-#{string}"
 end
 
 When("I fill title with {string}") do |string|
@@ -78,12 +73,7 @@ Then("I see a confirmation message that the text is edited") do
 end
 
 When("I click Delete on the text titled {string}") do |string|
-  expect(page).to have_content(string)
-  #if 'text[title]' == string
-   # click_link 'text[Destroy]'
-  #end
-  #first(:link, 'Destroy').click
-
+  click_link "d-#{string}"
 end
 
 Then("I see the log in page") do

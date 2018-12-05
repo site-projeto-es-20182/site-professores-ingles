@@ -62,7 +62,7 @@ Feature: text
   Scenario: Delete text as admin
     Given I am in the texts page
     And I am logged on as admin 'professor@gmail.com' with password '654321'
-    When I click Delete on the text titled 'The green tree'
+    When I click Delete on the text titled 'The red tree'
     And I see a message to confirm deletion
     When I click Ok
     Then I see a confirmation message that the text is deleted
