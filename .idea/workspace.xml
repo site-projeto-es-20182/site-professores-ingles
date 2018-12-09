@@ -2,37 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Postmortem-segunda-iteracao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postmortem-terceira-iteracao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/doubts.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/forums.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/initial_page.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/poems.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/texts.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/doubts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/forums.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/initial_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/poems.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/texts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/doubts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/forums/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/forums_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/initial_page_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/poems/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/poems_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/texts/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/texts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/doubts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/forums_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/initial_page_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/poems_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/texts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/doubt.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/forum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/poem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/tag_validator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/text.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/_comments.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/_doubt.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/_forum.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/initial_page/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_alerts.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/_poem.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/_text.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181119020453_create_texts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181120001845_create_poems.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181122092645_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181122223325_create_forums.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181123192801_devise_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181123202539_add_user_to_comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181124022409_add_user_to_forum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130232925_add_user_to_poem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130233043_add_user_to_text.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130234951_add_admin_to_user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181204171037_create_doubts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181204171231_add_user_to_doubt.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/doubtsteps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/textsteps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/cucumber.rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/cucumber" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/doubts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/forums_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/initial_page_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/poems_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/texts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/comments.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/doubts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/forums.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/poems.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/texts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/comment_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/doubt_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/forum_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/poem_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/text_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/doubts_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/forums_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/poems_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/texts_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/site-professores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site-professores.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ata-primeira-reuniao.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ata-primeira-reuniao.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/doubts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/doubts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/texts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/texts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/doubts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/doubts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/text.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/text.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/textsteps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/textsteps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_commentable_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878530551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles_master@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1542673227957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@rails_server__e_test.rcov" NAME="rails server -e test Coverage Results" MODIFIED="1543978379102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_c_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment c…{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878668581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@db_test_prepare__site_professores.rcov" NAME="db:test:prepare: site-professores Coverage Results" MODIFIED="1543976190227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_db_migrate_RAILS_ENV___test.rcov" NAME="ruby bin/rails db:migrate RAILS_ENV = test Coverage Results" MODIFIED="1543975690595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_db_migrate_RAILS_ENV_test.rcov" NAME="ruby bin/rails db:migrate RAILS_ENV=test Coverage Results" MODIFIED="1543975722793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_RAILS_ENV___test.rcov" NAME="ruby bin/rails RAILS_ENV = test Coverage Results" MODIFIED="1543975668103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_generate_model_Comment_notable_references_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878397976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1543976920039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
-    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_g_model_comment_commentable_references_polymorphic__author_string_content_text.rcov" NAME="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text Coverage Results" MODIFIED="1542878800265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1104115816">
@@ -187,83 +288,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1165614747">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/doubts.feature">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/doubtsteps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+            <state relative-caret-position="16626">
+              <caret line="978" column="10" selection-start-line="978" selection-start-column="10" selection-end-line="978" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/textsteps.rb">
+        <entry file="file://$PROJECT_DIR$/.idea/site-professores.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/text.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="297">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -345,6 +405,7 @@
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/features/doubtsteps.rb" />
         <option value="$PROJECT_DIR$/features/textsteps.rb" />
+        <option value="$PROJECT_DIR$/.idea/site-professores.iml" />
       </list>
     </option>
   </component>
@@ -361,14 +422,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-41" />
-    <option name="y" value="22" />
+    <option name="x" value="-436" />
+    <option name="y" value="119" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -388,90 +444,24 @@
             <path>
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="doubts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="texts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,7 +478,7 @@
       <command value="rails rake db:migrate" />
       <command value="ruby rake db:migrate" />
       <command value="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" />
-      <command value="ruby bin/rails generate model Comment c…{polymorphic} author:string content:text" />
+      <command value="ruby bin/rails generate model Comment câ€¦{polymorphic} author:string content:text" />
       <command value="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" />
       <command value="rails generate scaffold Forum tag:string title:string author:string content:text" />
       <command value="rails g migration AddUserToText column_user:string" />
@@ -757,16 +747,18 @@
       <workItem from="1543977077554" duration="1084000" />
       <workItem from="1543978194933" duration="153000" />
       <workItem from="1543978370009" duration="791000" />
+      <workItem from="1543981991827" duration="8000" />
+      <workItem from="1543982022794" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54423000" />
+    <option name="totallyTimeSpent" value="54473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-41" y="22" width="1936" height="1066" extended-state="0" />
+    <frame x="-436" y="119" width="1936" height="1066" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -815,20 +807,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/poems/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/forums/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181120001845_create_poems.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1099,6 +1077,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16626">
+          <caret line="978" column="10" selection-start-line="978" selection-start-column="10" selection-end-line="978" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/site-professores.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>

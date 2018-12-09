@@ -80,3 +80,4 @@ Feature: doubt
     When I click delete doubt the doubt with title 'How to delete post' and Content with 'I want to delete one of my posts'
     And I click Ok
     Then I see a confirmation message that the doubt has been deleted
+
