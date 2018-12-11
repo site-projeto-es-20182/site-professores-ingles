@@ -1,0 +1,16 @@
+<h1>Hello Students</h1>
+<p>This is a place for you to learn and practice English with other students</p>
+
+<%= link_to 'Texts', controller: 'texts' %><br/>
+<%= link_to 'Poems', controller: 'poems' %><br/>
+<%= link_to 'Forums', controller: 'forums' %><br/>
+<%= link_to 'Doubts', controller: 'doubts' %><br/><br/>
+
+<% if current_user %>
+  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+<% else %>
+  <br/><%= link_to 'Sign up', new_user_registration_path %>
+  <%= link_to 'Sign in', new_user_session_path %>
+<% end %>
+
+<p>Find me in app/views/initial_page/index.html.erb</p>

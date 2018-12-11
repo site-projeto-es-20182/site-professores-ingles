@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="" />
+    <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Postmortem-segunda-iteracao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postmortem-terceira-iteracao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/doubts.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/forums.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/initial_page.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/poems.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/texts.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/doubts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/forums.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/initial_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/poems.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/texts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/doubts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/forums/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/forums_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/initial_page_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/poems/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/poems_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/texts/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/texts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/doubts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/forums_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/initial_page_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/poems_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/texts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/doubt.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/forum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/poem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/tag_validator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/text.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/_comments.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/_doubt.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/doubts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/_forum.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/forums/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/initial_page/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_alerts.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/_poem.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/poems/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/_text.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/texts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181119020453_create_texts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181120001845_create_poems.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181122092645_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181122223325_create_forums.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181123192801_devise_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181123202539_add_user_to_comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181124022409_add_user_to_forum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130232925_add_user_to_poem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130233043_add_user_to_text.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181130234951_add_admin_to_user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181204171037_create_doubts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181204171231_add_user_to_doubt.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/doubtsteps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/textsteps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/cucumber.rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/cucumber" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/doubts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/forums_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/initial_page_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/poems_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/texts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/comments.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/doubts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/forums.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/poems.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/texts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/comment_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/doubt_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/forum_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/poem_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/text_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/doubts_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/forums_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/poems_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/texts_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/site-professores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site-professores.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ata-primeira-reuniao.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ata-primeira-reuniao.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/doubts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/doubts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/text.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/text.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,28 +157,257 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="668982187">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="erb" value="3" />
+          <entry key="rb" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="RHTML" value="3" />
+          <entry key="Ruby" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="erb" value="221" />
+          <entry key="rb" value="156" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="RHTML" value="221" />
+          <entry key="Ruby" value="156" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1014764645">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="erb" value="4" />
+          <entry key="rb" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="RHTML" value="4" />
+          <entry key="Ruby" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="erb" value="46" />
+          <entry key="rb" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="RHTML" value="46" />
+          <entry key="Ruby" value="51" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1115128403">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.85" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.actions.runAnything">
+        <counts>
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Bundler" value="1" />
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="175" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Gemfile" value="4" />
+          <entry key="erb" value="46" />
+          <entry key="feature" value="10" />
+          <entry key="jbuilder" value="5" />
+          <entry key="lock" value="1" />
+          <entry key="rb" value="114" />
+          <entry key="yml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Cucumber" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="RHTML" value="46" />
+          <entry key="Ruby" value="123" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Gemfile" value="135" />
+          <entry key="erb" value="1766" />
+          <entry key="feature" value="299" />
+          <entry key="rb" value="5501" />
+          <entry key="yml" value="365" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="299" />
+          <entry key="RHTML" value="1766" />
+          <entry key="Ruby" value="5636" />
+          <entry key="YAML" value="365" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1165614747">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16626">
+              <caret line="978" column="10" selection-start-line="978" selection-start-column="10" selection-end-line="978" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/.idea/site-professores.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&amp;&amp;</find>
+      <find>authenticate_user</find>
+      <find>@poem</find>
+      <find>titled</find>
+      <find>@text</find>
+      <find>Fulano</find>
+      <find>Alisson</find>
+      <find>How I can delete a post</find>
+      <find>H</find>
+      <find>admin</find>
+      <find>solved</find>
+      <find>fill</find>
+      <find>create</find>
+      <find>new doubt</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/controllers/texts/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/poems/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/forums/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/tag_validator.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_alerts.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181123194051_add_user_to_text.rb" />
+        <option value="$PROJECT_DIR$/app/views/texts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/poems/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_comments.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181122223325_create_forums.rb" />
+        <option value="$PROJECT_DIR$/app/views/forums/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/forums/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/poems/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/texts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/forum.rb" />
+        <option value="$PROJECT_DIR$/app/views/poems/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/forums/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181120001845_create_poems.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181119020453_create_texts.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/models/poem.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181130234951_add_admin_to_user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/texts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/poems_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/forums_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/text.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/doubts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/doubt.rb" />
+        <option value="$PROJECT_DIR$/app/views/initial_page/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/texts/index.html.erb" />
+        <option value="$PROJECT_DIR$/features/text.feature" />
+        <option value="$PROJECT_DIR$/app/views/doubts/index.html.erb" />
+        <option value="$PROJECT_DIR$/features/doubts.feature" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/features/doubtsteps.rb" />
+        <option value="$PROJECT_DIR$/features/textsteps.rb" />
+        <option value="$PROJECT_DIR$/.idea/site-professores.iml" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -59,16 +415,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="538" />
-    <option name="y" value="67" />
-    <option name="width" value="975" />
-    <option name="height" value="1000" />
+    <option name="x" value="-436" />
+    <option name="y" value="119" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -76,15 +434,82 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="b">
+      <command value="rails generate scaffold text title:string author:string content:text" />
+      <command value="rails generate scaffold Poem title:string author:string content:text" />
+      <command value="ruby bin/rails generate model Comment notable:references{polymorphic} author:string content:text" />
+      <command value="rails rake db:migrate" />
+      <command value="ruby rake db:migrate" />
+      <command value="ruby bin/rails generate model Comment commentable{polymorphic} author:string content:text" />
+      <command value="ruby bin/rails generate model Comment câ€¦{polymorphic} author:string content:text" />
+      <command value="ruby bin/rails g model comment commentable:references{polymorphic} author:string content:text" />
+      <command value="rails generate scaffold Forum tag:string title:string author:string content:text" />
+      <command value="rails g migration AddUserToText column_user:string" />
+      <command value="rake db: rollback STEP = 1" />
+      <command value="rails g migration AddUserToForum user:references" />
+      <command value="rake db:rollback STEP=1" />
+      <command value="bundle Install" />
+      <command value="cucumber --init" />
+      <command value="rails g migration AddUserToPoem user:references" />
+      <command value="rails g migration AddUserToComment user:references" />
+      <command value="rails g migration AddUserToText user:references" />
+      <command value="rails g migration AddAdminToUser admin:boolean" />
+      <command value="gem uninstall capybara" />
+      <command value="gem uninstall selenium-webdriver" />
+      <command value="rails generate scaffold doubt title:string content:text" />
+      <command value="rails g migration AddUserToDoubt user:references" />
+      <command value="RAILS_ENV = test rails s" />
+      <command value="ruby bin/rails RAILS_ENV = test" />
+      <command value="ruby bin/rails db:migrate RAILS_ENV = test" />
+      <command value="ruby bin/rails db:migrate RAILS_ENV=test" />
+      <command value="rake db:test:clone_structure" />
+      <command value="rake db:test:prepare" />
+      <command value="rake db:test" />
+      <command value="rails generate cucumber:install" />
+      <command value="rake db:migrate" />
+      <command value="rake db:migrate RAILS_ENV=test" />
+      <command value="bundle install" />
+      <command value="bundle exec cucumber" />
+      <command value="rails server -e test" />
+      <command value="cucumber" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +523,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: site-professores">
+  <component name="RunManager" selected="Rails.rails server -e test">
     <configuration name="Development: site-professores" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="site-professores" />
@@ -137,6 +562,65 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rails server -e test" type="RailsRunConfigurationType" factoryName="Rails" temporary="true">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="site-professores" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="test" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate: site-professores" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="site-professores" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:test:prepare: site-professores" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="site-professores" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:test:prepare" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
     <configuration name="spec: site-professores" type="RakeRunConfigurationType" factoryName="Rake">
@@ -178,12 +662,54 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="ruby bin/rails db:migrate RAILS_ENV = test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="db:migrate RAILS_ENV = test" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ruby bin/rails db:migrate RAILS_ENV=test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="site-professores" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="db:migrate RAILS_ENV=test" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Rake.test: site-professores" />
       <item itemvalue="Rake.spec: site-professores" />
       <item itemvalue="Rails.Production: site-professores" />
       <item itemvalue="Rails.Development: site-professores" />
+      <item itemvalue="Rake.db:migrate: site-professores" />
+      <item itemvalue="Rake.db:test:prepare: site-professores" />
+      <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV = test" />
+      <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV=test" />
+      <item itemvalue="Rails.rails server -e test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Rails.rails server -e test" />
+        <item itemvalue="Rake.db:migrate: site-professores" />
+        <item itemvalue="Rake.db:test:prepare: site-professores" />
+        <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV=test" />
+        <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV = test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -197,36 +723,82 @@
       <option name="presentableId" value="Default" />
       <updated>1542585424229</updated>
       <workItem from="1542585425574" duration="526000" />
+      <workItem from="1542588934926" duration="1764000" />
+      <workItem from="1542673023932" duration="186000" />
+      <workItem from="1542878233600" duration="1689000" />
+      <workItem from="1542909241738" duration="9347000" />
+      <workItem from="1543001134209" duration="3832000" />
+      <workItem from="1543024881746" duration="1391000" />
+      <workItem from="1543371240170" duration="326000" />
+      <workItem from="1543620524830" duration="7391000" />
+      <workItem from="1543829776837" duration="714000" />
+      <workItem from="1543852851611" duration="1601000" />
+      <workItem from="1543856674961" duration="3489000" />
+      <workItem from="1543863200793" duration="1769000" />
+      <workItem from="1543864992249" duration="2096000" />
+      <workItem from="1543867113859" duration="351000" />
+      <workItem from="1543889683911" duration="2379000" />
+      <workItem from="1543942128528" duration="8821000" />
+      <workItem from="1543953727726" duration="1242000" />
+      <workItem from="1543955109225" duration="1005000" />
+      <workItem from="1543974497705" duration="2143000" />
+      <workItem from="1543976690462" duration="298000" />
+      <workItem from="1543977016262" duration="35000" />
+      <workItem from="1543977077554" duration="1084000" />
+      <workItem from="1543978194933" duration="153000" />
+      <workItem from="1543978370009" duration="791000" />
+      <workItem from="1543981991827" duration="8000" />
+      <workItem from="1543982022794" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526000" />
+    <option name="totallyTimeSpent" value="54473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="538" y="67" width="975" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-436" y="119" width="1936" height="1066" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24918033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49945354" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48720682" weight="0.30612245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5127932" side_tool="true" weight="0.30612245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49945354" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.30612245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5127932" side_tool="true" visible="true" weight="0.30612245" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -235,14 +807,292 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181120001845_create_poems.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181122092645_create_comments.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181122223325_create_forums.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181123202539_add_user_to_comment.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181124022409_add_user_to_forum.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tag_validator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181119020453_create_texts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/forum.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/poems/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181130234951_add_admin_to_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/devise-4.5.0/lib/devise/controllers/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/forums_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/initial_page_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/poems_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/_text.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/text.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/texts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" selection-start-line="61" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/doubts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181130233043_add_user_to_text.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181204171231_add_user_to_doubt.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/poem.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/initial_page/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/doubt.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/doubts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/text.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/doubts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/doubtsteps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/textsteps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16626">
+          <caret line="978" column="10" selection-start-line="978" selection-start-column="10" selection-end-line="978" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/site-professores.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

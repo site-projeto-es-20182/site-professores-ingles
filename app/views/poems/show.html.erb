@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @poem.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @poem.user.username %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @poem.content %>
+</p>
+
+<h2>Comments</h2>
+<%= render partial: "comments/comments", locals: {commentable: @poem} %>
+
+<h2>Add a comment</h2>
+<%= render partial: "comments/form", locals: {commentable: @poem} %>
+
+<%= link_to 'Edit', edit_poem_path(@poem) %> |
+<%= link_to 'Back', poems_path %>
