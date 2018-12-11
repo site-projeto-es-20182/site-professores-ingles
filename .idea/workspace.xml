@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/comment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/site_professores_ingles@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1544545490374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1104115816">
@@ -101,11 +104,12 @@
     <session id="1115128403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="2" />
@@ -118,18 +122,18 @@
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything">
         <counts>
           <entry key="RunAnythingMainListModel: RunAnything - execution - Bundler" value="1" />
-          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="176" />
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="4" />
+          <entry key="Gemfile" value="5" />
           <entry key="erb" value="46" />
           <entry key="feature" value="11" />
           <entry key="jbuilder" value="5" />
@@ -143,13 +147,13 @@
           <entry key="Cucumber" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="46" />
-          <entry key="Ruby" value="124" />
+          <entry key="Ruby" value="125" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="135" />
+          <entry key="Gemfile" value="138" />
           <entry key="erb" value="1766" />
           <entry key="feature" value="299" />
           <entry key="rb" value="5526" />
@@ -160,7 +164,7 @@
         <counts>
           <entry key="Cucumber" value="299" />
           <entry key="RHTML" value="1766" />
-          <entry key="Ruby" value="5661" />
+          <entry key="Ruby" value="5664" />
           <entry key="YAML" value="365" />
         </counts>
       </usages-collector>
@@ -190,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1637">
-              <caret line="870" column="10" selection-start-line="870" selection-start-column="10" selection-end-line="870" selection-end-column="10" />
+            <state relative-caret-position="15011">
+              <caret line="883" column="10" selection-start-line="883" selection-start-column="10" selection-end-line="883" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -199,13 +203,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/comments.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="782">
               <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -286,13 +299,13 @@
         <option value="$PROJECT_DIR$/features/doubts.feature" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/features/doubtsteps.rb" />
         <option value="$PROJECT_DIR$/features/textsteps.rb" />
         <option value="$PROJECT_DIR$/.idea/site-professores.iml" />
         <option value="$PROJECT_DIR$/features/comments.feature" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -314,9 +327,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="53" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="46" />
+    <option name="y" value="57" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -326,8 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,6 +377,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,6 +426,7 @@
       <command value="rails server -e test" />
       <command value="cucumber" />
       <command value="rake db:migrate" />
+      <command value="bundle update coffee-script-source" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -427,7 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.rails server -e test">
+  <component name="RunManager" selected="Rake.db:migrate: site-professores">
     <configuration name="Development: site-professores" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="site-professores" />
@@ -607,8 +621,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Rails.rails server -e test" />
         <item itemvalue="Rake.db:migrate: site-professores" />
+        <item itemvalue="Rails.rails server -e test" />
         <item itemvalue="Rake.db:test:prepare: site-professores" />
         <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV=test" />
         <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV = test" />
@@ -653,23 +667,25 @@
       <workItem from="1543978370009" duration="791000" />
       <workItem from="1543981991827" duration="8000" />
       <workItem from="1543982022794" duration="35000" />
-      <workItem from="1544372591380" duration="173000" />
+      <workItem from="1544372591380" duration="817000" />
+      <workItem from="1544545423390" duration="129000" />
+      <workItem from="1544545827404" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54646000" />
+    <option name="totallyTimeSpent" value="55741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="46" y="57" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49945354" visible="true" weight="0.32947975" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.30612245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.30612245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -917,13 +933,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -981,15 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1637">
-          <caret line="870" column="10" selection-start-line="870" selection-start-column="10" selection-end-line="870" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/comments.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+        <state relative-caret-position="15011">
+          <caret line="883" column="10" selection-start-line="883" selection-start-column="10" selection-end-line="883" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -997,6 +999,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/comments.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
