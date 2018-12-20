@@ -18,7 +18,7 @@ Feature: comment
     And the text entitled 'The green tree' exists
     When I click Show on the text titled 'The green tree'
     And I click Create Comment
-    Then I see an error message that the comment has not been created
+    Then I see an error message that the comment is not created
 
   Scenario: Add a comment in a Doubt without being logged on
     Given I am in the doubts page

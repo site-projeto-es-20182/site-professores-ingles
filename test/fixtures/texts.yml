@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  author: MyString
-  content: MyText
+  title: "Hello"
+  author: "Me"
+  content: "There was a green tree"
 
 two:
   title: MyString

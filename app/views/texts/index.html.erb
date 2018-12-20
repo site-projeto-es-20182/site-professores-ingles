@@ -18,7 +18,7 @@
         <td><%= text.title %></td>
         <td><%= text.user.username %></td>
         <td><%= text.content %></td>
-        <td><%= link_to 'Show', text %></td>
+        <td><%= link_to 'Show', text, id:"s-#{text.title}" %></td>
         <td><%= link_to 'Edit', edit_text_path(text), id:"e-#{text.title}" %></td>
         <td><%= link_to 'Destroy', text_path(text), id:"d-#{text.title}", method: :delete%></td>
       </tr>

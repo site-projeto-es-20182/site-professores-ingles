@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8bb445-6ea3-425b-bf30-3c723b2a0ef6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/site-professores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site-professores.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/doubts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/doubts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/texts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/texts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/comments.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/comments.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/texts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/texts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +17,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/site_professores_ingles@All_tests_in_features__site_professores.rcov" NAME="All tests in features: site-professores Coverage Results" MODIFIED="1545184466522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@rails_server__e_test.rcov" NAME="rails server -e test Coverage Results" MODIFIED="1545205882487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@comments_feature.rcov" NAME="comments.feature Coverage Results" MODIFIED="1545184248277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_db_migrate_RAILS_ENV_test.rcov" NAME="ruby bin/rails db:migrate RAILS_ENV=test Coverage Results" MODIFIED="1545182556643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@commentsteps.rcov" NAME="commentsteps Coverage Results" MODIFIED="1545184192459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@All_tests_in_test__site_professores.rcov" NAME="All tests in test: site-professores Coverage Results" MODIFIED="1545204594494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@rails_server__h.rcov" NAME="rails server -h Coverage Results" MODIFIED="1545205921501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
     <SUITE FILE_PATH="coverage/site_professores_ingles@db_migrate__site_professores.rcov" NAME="db:migrate: site-professores Coverage Results" MODIFIED="1544545490374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@ruby_bin_rails_server__e_test.rcov" NAME="ruby bin/rails server -e test Coverage Results" MODIFIED="1545206738191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
+    <SUITE FILE_PATH="coverage/site_professores_ingles@rails_server__e_development.rcov" NAME="rails server -e development Coverage Results" MODIFIED="1545207139545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site-professores" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1104115816">
@@ -104,7 +117,7 @@
     <session id="1115128403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -112,7 +125,8 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -122,50 +136,50 @@
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything">
         <counts>
           <entry key="RunAnythingMainListModel: RunAnything - execution - Bundler" value="1" />
-          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="177" />
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="5" />
-          <entry key="erb" value="46" />
-          <entry key="feature" value="11" />
+          <entry key="erb" value="49" />
+          <entry key="feature" value="13" />
           <entry key="jbuilder" value="5" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="115" />
-          <entry key="yml" value="6" />
+          <entry key="rb" value="120" />
+          <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="11" />
+          <entry key="Cucumber" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="46" />
-          <entry key="Ruby" value="125" />
-          <entry key="YAML" value="6" />
+          <entry key="RHTML" value="49" />
+          <entry key="Ruby" value="130" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="138" />
-          <entry key="erb" value="1766" />
-          <entry key="feature" value="299" />
-          <entry key="rb" value="5526" />
-          <entry key="yml" value="365" />
+          <entry key="erb" value="1829" />
+          <entry key="feature" value="307" />
+          <entry key="rb" value="5646" />
+          <entry key="yml" value="479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="299" />
-          <entry key="RHTML" value="1766" />
-          <entry key="Ruby" value="5664" />
-          <entry key="YAML" value="365" />
+          <entry key="Cucumber" value="307" />
+          <entry key="RHTML" value="1829" />
+          <entry key="Ruby" value="5784" />
+          <entry key="YAML" value="479" />
         </counts>
       </usages-collector>
     </session>
@@ -192,37 +206,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15011">
-              <caret line="883" column="10" selection-start-line="883" selection-start-column="10" selection-end-line="883" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/comments.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+            <state relative-caret-position="340">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+        <entry file="file://$PROJECT_DIR$/features/commentsteps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="169">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+            <state relative-caret-position="238">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/controllers/texts_controller_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/texts.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/doubts.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/doubtsteps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/text.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -252,6 +320,10 @@
       <find>fill</find>
       <find>create</find>
       <find>new doubt</find>
+      <find>edit</find>
+      <find>rand</find>
+      <find>button</find>
+      <find>I see an error message that the comment has not been created</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -293,19 +365,21 @@
         <option value="$PROJECT_DIR$/app/controllers/doubts_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/doubt.rb" />
         <option value="$PROJECT_DIR$/app/views/initial_page/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/texts/index.html.erb" />
         <option value="$PROJECT_DIR$/features/text.feature" />
-        <option value="$PROJECT_DIR$/app/views/doubts/index.html.erb" />
         <option value="$PROJECT_DIR$/features/doubts.feature" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/features/doubtsteps.rb" />
         <option value="$PROJECT_DIR$/features/textsteps.rb" />
         <option value="$PROJECT_DIR$/.idea/site-professores.iml" />
-        <option value="$PROJECT_DIR$/features/comments.feature" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/texts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/doubts/index.html.erb" />
+        <option value="$PROJECT_DIR$/features/comments.feature" />
+        <option value="$PROJECT_DIR$/features/commentsteps.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/test/fixtures/texts.yml" />
       </list>
     </option>
   </component>
@@ -327,9 +401,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="57" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-155" />
+    <option name="y" value="119" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -339,6 +413,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,29 +430,55 @@
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="doubts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="poems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="texts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-professores-ingles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-professores-ingles" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -402,7 +503,6 @@
       <command value="rake db: rollback STEP = 1" />
       <command value="rails g migration AddUserToForum user:references" />
       <command value="rake db:rollback STEP=1" />
-      <command value="bundle Install" />
       <command value="cucumber --init" />
       <command value="rails g migration AddUserToPoem user:references" />
       <command value="rails g migration AddUserToComment user:references" />
@@ -415,18 +515,24 @@
       <command value="RAILS_ENV = test rails s" />
       <command value="ruby bin/rails RAILS_ENV = test" />
       <command value="ruby bin/rails db:migrate RAILS_ENV = test" />
-      <command value="ruby bin/rails db:migrate RAILS_ENV=test" />
       <command value="rake db:test:clone_structure" />
       <command value="rake db:test:prepare" />
       <command value="rake db:test" />
       <command value="rails generate cucumber:install" />
       <command value="rake db:migrate RAILS_ENV=test" />
-      <command value="bundle install" />
       <command value="bundle exec cucumber" />
-      <command value="rails server -e test" />
-      <command value="cucumber" />
       <command value="rake db:migrate" />
+      <command value="bundle Install" />
+      <command value="gem bundle update coffee-script-source" />
+      <command value="bundle install" />
       <command value="bundle update coffee-script-source" />
+      <command value="ruby bin/rails db:migrate RAILS_ENV=test" />
+      <command value="cucumber text.feature doubts.feature comments.feature" />
+      <command value="rails server -e test" />
+      <command value="rails server -h" />
+      <command value="ruby bin/rails server -e test" />
+      <command value="cucumber" />
+      <command value="rails server -e development" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -441,7 +547,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate: site-professores">
+  <component name="RunManager" selected="Rails.rails server -e development">
     <configuration name="Development: site-professores" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="site-professores" />
@@ -482,6 +588,26 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="rails server -e development" type="RailsRunConfigurationType" factoryName="Rails" temporary="true">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="site-professores" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="rails server -e test" type="RailsRunConfigurationType" factoryName="Rails" temporary="true">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="site-professores" />
@@ -502,43 +628,24 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="db:migrate: site-professores" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+    <configuration name="rails server -h" type="RailsRunConfigurationType" factoryName="Rails" temporary="true">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="site-professores" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="db:test:prepare: site-professores" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="site-professores" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:test:prepare" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="-h" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
     <configuration name="spec: site-professores" type="RakeRunConfigurationType" factoryName="Rake">
@@ -580,7 +687,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="ruby bin/rails db:migrate RAILS_ENV = test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="ruby bin/rails server -e test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="site-professores" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -591,21 +698,33 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="db:migrate RAILS_ENV = test" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="server -e test" />
       <method v="2" />
     </configuration>
-    <configuration name="ruby bin/rails db:migrate RAILS_ENV=test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="All tests in test: site-professores" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="site-professores" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="db:migrate RAILS_ENV=test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
     <list>
@@ -613,19 +732,19 @@
       <item itemvalue="Rake.spec: site-professores" />
       <item itemvalue="Rails.Production: site-professores" />
       <item itemvalue="Rails.Development: site-professores" />
-      <item itemvalue="Rake.db:migrate: site-professores" />
-      <item itemvalue="Rake.db:test:prepare: site-professores" />
-      <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV = test" />
-      <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV=test" />
       <item itemvalue="Rails.rails server -e test" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: site-professores" />
+      <item itemvalue="Rails.rails server -e development" />
+      <item itemvalue="Rails.rails server -h" />
+      <item itemvalue="Ruby.ruby bin/rails server -e test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Rake.db:migrate: site-professores" />
+        <item itemvalue="Rails.rails server -e development" />
+        <item itemvalue="Ruby.ruby bin/rails server -e test" />
+        <item itemvalue="Rails.rails server -h" />
         <item itemvalue="Rails.rails server -e test" />
-        <item itemvalue="Rake.db:test:prepare: site-professores" />
-        <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV=test" />
-        <item itemvalue="Ruby.ruby bin/rails db:migrate RAILS_ENV = test" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: site-professores" />
       </list>
     </recent_temporary>
   </component>
@@ -669,23 +788,52 @@
       <workItem from="1543982022794" duration="35000" />
       <workItem from="1544372591380" duration="817000" />
       <workItem from="1544545423390" duration="129000" />
-      <workItem from="1544545827404" duration="322000" />
+      <workItem from="1544545827404" duration="1030000" />
+      <workItem from="1545181971132" duration="2600000" />
+      <workItem from="1545184634253" duration="4180000" />
+      <workItem from="1545271209075" duration="603000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="comments_feature - 2018.12.18 at 23h 20m 03s.xml">
+      <configuration name="comments.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="comments_feature - 2018.12.18 at 23h 23m 44s.xml">
+      <configuration name="comments.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="comments_feature - 2018.12.18 at 23h 26m 21s.xml">
+      <configuration name="comments.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="comments_feature - 2018.12.18 at 23h 51m 35s.xml">
+      <configuration name="comments.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_features__site-professores - 2018.12.18 at 23h 54m 27s.xml">
+      <configuration name="All tests in features: site-professores" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__site-professores - 2018.12.19 at 05h 28m 06s.xml">
+      <configuration name="All tests in test: site-professores" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__site-professores - 2018.12.19 at 05h 29m 01s.xml">
+      <configuration name="All tests in test: site-professores" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__site-professores - 2018.12.19 at 05h 30m 08s.xml">
+      <configuration name="All tests in test: site-professores" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55741000" />
+    <option name="totallyTimeSpent" value="63832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="57" width="1936" height="1066" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27771854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49945354" visible="true" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.30612245" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48720682" weight="0.30612245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,22 +877,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181122092645_create_comments.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181122223325_create_forums.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181123202539_add_user_to_comment.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181124022409_add_user_to_forum.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/tag_validator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -763,13 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -900,32 +1025,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/texts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/puma.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/doubts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -946,38 +1050,10 @@
     <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/text.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/doubts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/doubtsteps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/textsteps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -990,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15011">
-          <caret line="883" column="10" selection-start-line="883" selection-start-column="10" selection-end-line="883" selection-end-column="10" />
+        <state relative-caret-position="16354">
+          <caret line="988" column="10" selection-start-line="988" selection-start-column="10" selection-end-line="988" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1002,17 +1078,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/comments.feature">
+    <entry file="file://$PROJECT_DIR$/app/views/doubts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+        <state relative-caret-position="306">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/texts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/poems/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/textsteps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/texts_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/doubts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/doubtsteps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/text.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/texts.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/comments.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/commentsteps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
