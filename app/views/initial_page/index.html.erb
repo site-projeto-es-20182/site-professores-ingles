@@ -4,7 +4,8 @@
 <%= link_to 'Texts', controller: 'texts' %><br/>
 <%= link_to 'Poems', controller: 'poems' %><br/>
 <%= link_to 'Forums', controller: 'forums' %><br/>
-<%= link_to 'Doubts', controller: 'doubts' %><br/><br/>
+<%= link_to 'Doubts', controller: 'doubts' %><br/>
+<%= link_to 'Classes', controller: 'my_classes' %><br/><br/>
 
 <% if current_user %>
   <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>

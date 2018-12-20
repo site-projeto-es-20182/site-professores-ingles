@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Activable:</strong>
+  <%= @activity.activable %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @activity.author %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @activity.content %>
+</p>
+
+<%= link_to 'Edit', edit_activity_path(@activity) %> |
+<%= link_to 'Back', activities_path %>
