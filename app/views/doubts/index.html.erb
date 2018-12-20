@@ -18,7 +18,7 @@
         <td><%= doubt.title %></td>
         <td><%= doubt.user.username %></td>
         <td><%= doubt.content %></td>
-        <td><%= link_to 'Show', doubt %></td>
+        <td><%= link_to 'Show', doubt, id:"s-#{doubt.title}" %></td>
         <td><%= link_to 'Edit', edit_doubt_path(doubt), id:"e-#{doubt.title}" %></td>
         <td><%= link_to 'Destroy', doubt_path(doubt), id:"d-#{doubt.title}", method: :delete %></td>
       </tr>

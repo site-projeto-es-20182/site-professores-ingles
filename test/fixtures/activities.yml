@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: "Hello"
-  author: "Me"
-  content: "There was a green tree"
+  activable: one
+  activable_type: Activable
+  author: MyString
+  content: MyText
 
 two:
-  title: MyString
+  activable: two
+  activable_type: Activable
   author: MyString
   content: MyText

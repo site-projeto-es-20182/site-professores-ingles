@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181204171231) do
+ActiveRecord::Schema.define(version: 20181220080657) do
+
+  create_table "activities", force: :cascade do |t|
+    t.string "activable_type"
+    t.integer "activable_id"
+    t.string "author"
+    t.text "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.index ["activable_type", "activable_id"], name: "index_activities_on_activable_type_and_activable_id"
+    t.index ["user_id"], name: "index_activities_on_user_id"
+  end
 
   create_table "comments", force: :cascade do |t|
     t.string "commentable_type"
@@ -42,6 +54,14 @@ ActiveRecord::Schema.define(version: 20181204171231) do
     t.datetime "updated_at", null: false
     t.integer "user_id"
     t.index ["user_id"], name: "index_forums_on_user_id"
+  end
+
+  create_table "my_classes", force: :cascade do |t|
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_my_classes_on_user_id"
   end
 
   create_table "poems", force: :cascade do |t|

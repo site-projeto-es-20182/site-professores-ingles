@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>Poem</OriginalElement>
+  <nodes>
+    <node x="182.17731227106216" y="598.0">Text</node>
+    <node x="222.503663003663" y="99.0">User</node>
+    <node x="10.5" y="343.0">Activity</node>
+    <node x="369.1773122710622" y="609.0">Doubt</node>
+    <node x="0.0" y="794.0">TagValidator</node>
+    <node x="743.1773122710622" y="587.0">Forum</node>
+    <node x="352.27083333333337" y="0.0">ApplicationRecord</node>
+    <node x="12.382669413919302" y="609.0">MyClass</node>
+    <node x="522.1773122710622" y="354.0">Comment</node>
+    <node x="556.1773122710622" y="598.0">Poem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Activity" target="ApplicationRecord">
+      <point x="-40.25" y="-92.0" />
+      <point x="50.75" y="59.0" />
+      <point x="376.64583333333337" y="59.0" />
+      <point x="-40.625" y="14.5" />
+    </edge>
+    <edge source="Poem" target="Comment">
+      <point x="0.0" y="-70.0" />
+      <point x="23.5" y="81.0" />
+    </edge>
+    <edge source="Comment" target="ApplicationRecord">
+      <point x="47.0" y="-81.0" />
+      <point x="663.1773122710622" y="69.0" />
+      <point x="441.64583333333337" y="69.0" />
+      <point x="24.375" y="14.5" />
+    </edge>
+    <edge source="MyClass" target="Activity">
+      <point x="-18.375" y="-59.0" />
+      <point x="67.5076694139193" y="567.0" />
+      <point x="50.75" y="567.0" />
+      <point x="-40.25" y="92.0" />
+    </edge>
+    <edge source="User" target="ApplicationRecord">
+      <point x="0.0" y="-92.0" />
+      <point x="335.003663003663" y="79.0" />
+      <point x="409.14583333333337" y="79.0" />
+      <point x="-8.125" y="14.5" />
+    </edge>
+    <edge source="Poem" target="User">
+      <point x="-55.66666666666663" y="-70.0" />
+      <point x="584.0106456043956" y="547.0" />
+      <point x="487.6773122710622" y="547.0" />
+      <point x="487.6773122710622" y="323.0" />
+      <point x="367.1465201465201" y="323.0" />
+      <point x="32.14285714285711" y="92.0" />
+    </edge>
+    <edge source="Forum" target="User">
+      <point x="0.0" y="-81.0" />
+      <point x="826.6773122710622" y="557.0" />
+      <point x="808.420673076923" y="557.0" />
+      <point x="808.420673076923" y="303.0" />
+      <point x="431.43223443223445" y="303.0" />
+      <point x="96.42857142857144" y="92.0" />
+    </edge>
+    <edge source="Text" target="ApplicationRecord">
+      <point x="-55.66666666666666" y="-70.0" />
+      <point x="210.0106456043955" y="557.0" />
+      <point x="190.08733974358967" y="557.0" />
+      <point x="190.08733974358967" y="69.0" />
+      <point x="392.89583333333337" y="69.0" />
+      <point x="-24.375" y="14.5" />
+    </edge>
+    <edge source="Text" target="User">
+      <point x="0.0" y="-70.0" />
+      <point x="265.6773122710622" y="323.0" />
+      <point x="302.86080586080584" y="323.0" />
+      <point x="-32.14285714285717" y="92.0" />
+    </edge>
+    <edge source="Doubt" target="User">
+      <point x="-55.66666666666666" y="-59.0" />
+      <point x="397.0106456043955" y="547.0" />
+      <point x="326.7636217948718" y="547.0" />
+      <point x="326.7636217948718" y="323.0" />
+      <point x="335.003663003663" y="323.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="Doubt" target="ApplicationRecord">
+      <point x="0.0" y="-59.0" />
+      <point x="452.6773122710622" y="547.0" />
+      <point x="463.36080586080584" y="547.0" />
+      <point x="463.36080586080584" y="79.0" />
+      <point x="425.39583333333337" y="79.0" />
+      <point x="8.125" y="14.5" />
+    </edge>
+    <edge source="Activity" target="User">
+      <point x="40.25" y="-92.0" />
+      <point x="131.25" y="303.0" />
+      <point x="238.57509157509156" y="303.0" />
+      <point x="-96.42857142857144" y="92.0" />
+    </edge>
+    <edge source="Poem" target="ApplicationRecord">
+      <point x="55.66666666666663" y="-70.0" />
+      <point x="695.3439789377288" y="567.0" />
+      <point x="819.420673076923" y="567.0" />
+      <point x="819.420673076923" y="59.0" />
+      <point x="457.89583333333337" y="59.0" />
+      <point x="40.625" y="14.5" />
+    </edge>
+    <edge source="Forum" target="ApplicationRecord">
+      <point x="55.66666666666663" y="-81.0" />
+      <point x="882.3439789377288" y="567.0" />
+      <point x="848.6773122710622" y="567.0" />
+      <point x="848.6773122710622" y="49.0" />
+      <point x="474.14583333333337" y="49.0" />
+      <point x="56.875" y="14.5" />
+    </edge>
+    <edge source="MyClass" target="User">
+      <point x="55.125" y="-59.0" />
+      <point x="141.0076694139193" y="567.0" />
+      <point x="219.58733974358967" y="567.0" />
+      <point x="219.58733974358967" y="313.0" />
+      <point x="270.71794871794873" y="313.0" />
+      <point x="-64.28571428571428" y="92.0" />
+    </edge>
+    <edge source="Comment" target="User">
+      <point x="-47.0" y="-81.0" />
+      <point x="569.1773122710622" y="313.0" />
+      <point x="399.28937728937734" y="313.0" />
+      <point x="64.28571428571433" y="92.0" />
+    </edge>
+    <edge source="Doubt" target="Comment">
+      <point x="55.666666666666686" y="-59.0" />
+      <point x="508.3439789377288" y="567.0" />
+      <point x="592.6773122710622" y="567.0" />
+      <point x="-23.5" y="81.0" />
+    </edge>
+    <edge source="MyClass" target="ApplicationRecord">
+      <point x="-55.125" y="-59.0" />
+      <point x="30.757669413919302" y="567.0" />
+      <point x="0.0" y="567.0" />
+      <point x="0.0" y="49.0" />
+      <point x="360.39583333333337" y="49.0" />
+      <point x="-56.875" y="14.5" />
+    </edge>
+    <edge source="Activity" target="MyClass">
+      <point x="40.25" y="92.0" />
+      <point x="131.25" y="567.0" />
+      <point x="104.2576694139193" y="567.0" />
+      <point x="18.375" y="-59.0" />
+    </edge>
+    <edge source="Forum" target="Comment">
+      <point x="-55.66666666666663" y="-81.0" />
+      <point x="771.0106456043956" y="557.0" />
+      <point x="686.6773122710622" y="557.0" />
+      <point x="70.5" y="81.0" />
+    </edge>
+    <edge source="Text" target="Comment">
+      <point x="55.66666666666666" y="-70.0" />
+      <point x="321.3439789377288" y="557.0" />
+      <point x="545.6773122710622" y="557.0" />
+      <point x="-70.5" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8549228944246738" x="455.50000000000017" y="436.50000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>Migration fields</Category>
+  </Categories>
+</Diagram>
+

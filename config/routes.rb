@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :activities
+  resources :my_classes
   resources :doubts
   devise_for :users
   resources :texts do
